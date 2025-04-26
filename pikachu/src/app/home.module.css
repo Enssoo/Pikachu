@@ -1,0 +1,44 @@
+.category{
+    background-color: #3A3E88;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 24px;
+    width: 140px;
+    height: 30px;
+    margin: 0px 20px 0px 20px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 2%;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: #E9E9E9;
+    height: 70px;
+}
+
+.glass{
+    color: #3A3E88;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.input{
+    border: none;
+    border-radius: 16.5px;
+    width: 40%;
+    height: 25px;
+    padding: 10px;
+}
+
+.footer{
+    margin-top: 2%;
+}

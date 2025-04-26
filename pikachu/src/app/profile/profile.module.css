@@ -1,0 +1,131 @@
+.container{
+  background-color: #EDEDED;
+  width: 95%;
+  height: 500px;
+  margin: 20px auto;
+  border-radius: 32px;
+}
+
+.banner{
+  width: 100%;
+}
+
+.profile{
+  margin-right: 20px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 3%;
+}
+
+.cardText{
+    margin-top: 2.8%;
+}
+
+.h2{
+  margin-bottom: 2%;  
+  margin-left: 3%;
+  font-weight: 700;
+  color: #3A3E88;
+}
+
+.infoContainter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 28%;
+}
+
+.info, .text, .buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+.text{
+  align-items: center;
+}
+
+.textInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 100%;
+}
+
+.university{
+  margin-top: 20px;
+  margin-left: 80px;
+  font-size: 18px;
+  font-weight: 550;
+  height: 10%;
+  font-family: Helvetica;
+}
+
+.user{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.email{
+  color: #686868;
+  font-size: 18px;
+}
+
+.edit{
+  background-color: #3A3E88;
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  color: white;
+}
+
+.line{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.options{
+  display: flex;
+  flex-direction: column;
+  margin-top: 67px;
+}
+
+.h1{
+  font-size: 20px;
+  color: #3A3E88;
+  margin-left: 50px;
+}
+
+.textP{
+  color: #000555;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.buttons{
+  width: 100%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.button{
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #B6C8DC;
+  color: #3A3E88;
+  margin-top: 30px;
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-radius: 32px;
+  padding: 0 30px;
+}

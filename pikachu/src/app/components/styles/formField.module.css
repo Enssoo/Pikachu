@@ -1,0 +1,24 @@
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.label {
+  font-family: Helvetica;
+  font-weight: medium;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #6165ab;
+}
+
+.input {
+  background-color: #ededed;
+  border-radius: 20px;
+  border: none;
+  width: 500px;
+  padding: 3%;
+  padding-left: 5%;
+  font-size: 14px;
+  font-family: Helvetica;
+}

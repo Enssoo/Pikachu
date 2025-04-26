@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+
+.imgWrapper {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 500px;
+  height: 70vh;
+}
+
+.h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 32px;
+  color: #3a3e88;
+  margin-bottom: 3%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.submit, .reset {
+  width: 198px;
+  height: 45px;
+  border-radius: 40px;
+  border: none;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.submit {
+  background-color: #3a3e88;
+  color: white;
+}
+
+.reset {
+  background-color: #d9d9d9;
+  color: #686868;
+}
