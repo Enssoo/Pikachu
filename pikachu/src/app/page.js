@@ -23,24 +23,24 @@ export default function AboutUs() {
       </article>
 
       <section className={styles.section}>
-        <Card img="/assets/portugues.png" imagem="Literatura" label="PORTUGUÊS" />
+        <Card img="/assets/portugues.png" imagem="Português" label="PORTUGUÊS" />
         <Card img="/assets/literatura.png" imagem="Literatura" label="LITERATURA" />
-        <Card img="/assets/historiaa.png" imagem="Literatura" label="HISTÓRIA" />
-        <Card img="/assets/geografiaa.png" imagem="Literatura" label="GEOGRAFIA" />
+        <Card img="/assets/historiaa.png" imagem="História" label="HISTÓRIA" />
+        <Card img="/assets/geografiaa.png" imagem="Geografia" label="GEOGRAFIA" />
       </section>
 
       <section className={styles.section}>
-        <Card img="/assets/filosofiaa.png" imagem="Literatura" label="FILOSOFIA" />
-        <Card img="/assets/matematicaa.png" imagem="Literatura" label="MATEMÁTICA" />
-        <Card img="/assets/fisica.png" imagem="Literatura" label="FÍSICA" />
-        <Card img="/assets/quimica.png" imagem="Literatura" label="QUÍMICA" />
+        <Card img="/assets/filosofiaa.png" imagem="Filosofia" label="FILOSOFIA" />
+        <Card img="/assets/matematicaa.png" imagem="Matemática" label="MATEMÁTICA" />
+        <Card img="/assets/fisica.png" imagem="Física" label="FÍSICA" />
+        <Card img="/assets/quimica.png" imagem="Química" label="QUÍMICA" />
       </section>
 
       <section className={styles.section}>
-        <Card img="/assets/biologia.png" imagem="Literatura" label="BIOLOGIA" />
-        <Card img="/assets/sociologia.png" imagem="Literatura" label="SOCIOLOGIA" />
-        <Card img="/assets/redacao.png" imagem="Literatura" label="REDAÇÃO" />
-        <Card img="/assets/ingles.png" imagem="Literatura" label="INGLÊS" />
+        <Card img="/assets/biologia.png" imagem="Biologia" label="BIOLOGIA" />
+        <Card img="/assets/sociologia.png" imagem="Sociologia" label="SOCIOLOGIA" />
+        <Card img="/assets/redacao.png" imagem="Redação" label="REDAÇÃO" />
+        <Card img="/assets/ingles.png" imagem="Inglês" label="INGLÊS" />
       </section>
 
       <footer className={styles.footer}>
