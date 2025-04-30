@@ -44,10 +44,10 @@ export default function AboutUs() {
             <article className={styles.cardText}>
                <h2 className={styles.h2}>Prévia dos Conteúdos</h2>
                <section className={styles.section}>
-                  <Card img="/assets/biologia.png" imagem="Literatura" label="BIOLOGIA"/>
-                  <Card img="/assets/sociologia.png" imagem="Literatura" label="SOCIOLOGIA"/>
-                  <Card img="/assets/redacao.png" imagem="Literatura" label="REDAÇÃO"/>
-                  <Card img="/assets/ingles.png" imagem="Literatura" label="INGLÊS"/>
+                  <Card img="/assets/biologia.png" imagem="Biologia" label="BIOLOGIA"/>
+                  <Card img="/assets/sociologia.png" imagem="Sociologia" label="SOCIOLOGIA"/>
+                  <Card img="/assets/redacao.png" imagem="Redação" label="REDAÇÃO"/>
+                  <Card img="/assets/ingles.png" imagem="Inglês" label="INGLÊS"/>
                </section>
             </article>
 
