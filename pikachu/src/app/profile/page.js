@@ -52,10 +52,10 @@ export default function AboutUs() {
       <article className={styles.cardText}>
             <h2 className={styles.h2}>Seus Assuntos Favoritos</h2>
             <section className={styles.section}>
-                <Card img="/assets/portugues.png" imagem="Literatura" label="PORTUGUÊS" />
+                <Card img="/assets/portugues.png" imagem="Português" label="PORTUGUÊS" />
                 <Card img="/assets/literatura.png" imagem="Literatura" label="LITERATURA" />
-                <Card img="/assets/historiaa.png" imagem="Literatura" label="HISTÓRIA" />
-                <Card img="/assets/geografiaa.png" imagem="Literatura" label="GEOGRAFIA" />
+                <Card img="/assets/historiaa.png" imagem="História" label="HISTÓRIA" />
+                <Card img="/assets/geografiaa.png" imagem="Geografia" label="GEOGRAFIA" />
             </section>
       </article>
 
