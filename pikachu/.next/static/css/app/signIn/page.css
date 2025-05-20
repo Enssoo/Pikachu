@@ -1,0 +1,220 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/signIn/signIn.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.signIn_main__eG_Xe {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+
+.signIn_imgWrapper__DrMVf {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+}
+
+.signIn_right___MzEE {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 500px;
+  height: 70vh;
+}
+
+.signIn_h1__36N_0 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 32px;
+  color: #3a3e88;
+  margin-bottom: 3%;
+}
+
+.signIn_form__b9CM7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1;
+}
+
+.signIn_buttons__7zU67 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.signIn_submit__g942E, .signIn_reset__CVfJZ {
+  width: 198px;
+  height: 45px;
+  border-radius: 40px;
+  border: none;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.signIn_submit__g942E {
+  background-color: #3a3e88;
+  color: white;
+}
+
+.signIn_reset__CVfJZ {
+  background-color: #d9d9d9;
+  color: #686868;
+}
+
+
+@media (min-width: 801px) and (max-width: 1100px){
+  .signIn_right___MzEE{
+    height: 60vh;
+  }
+  
+  .signIn_imgWrapper__DrMVf{
+    display: none;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .signIn_main__eG_Xe{
+    width: 90%;
+    margin: auto;
+  }
+  
+  .signIn_right___MzEE{
+    height: 60vh;
+  }
+
+  .signIn_imgWrapper__DrMVf{
+    display: none;
+  }
+
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+  .signIn_main__eG_Xe{
+    width: 90%;
+    margin: auto;
+  }
+  
+  .signIn_right___MzEE{
+    height: 60vh;
+    align-items: center;
+  }
+
+  .signIn_imgWrapper__DrMVf{
+    display: none;
+  }
+
+  .signIn_submit__g942E, .signIn_reset__CVfJZ {
+    width: 125px;
+    font-size: 16px;
+  }
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/components/styles/formField.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.formField_article__Rfrra {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.formField_label__sdSrl {
+  font-family: Helvetica;
+  font-weight: medium;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #6165ab;
+}
+
+.formField_input__OfVSe {
+  background-color: #ededed;
+  border-radius: 20px;
+  border: none;
+  width: 500px;
+  padding: 3%;
+  padding-left: 5%;
+  font-size: 14px;
+  font-family: Helvetica;
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+  .formField_input__OfVSe{
+    width: 370px;
+  }
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/components/styles/cards.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.cards_article__1gHAr {
+    background-color: #EDEDED;
+    width: 345px;
+    height: 370px;
+    border-radius: 32px;
+    overflow: hidden;
+  }
+  
+  .cards_imgWrapper__fb88B {
+    position: relative;
+    width: 100%;
+    height: 68%;
+  }
+  
+  .cards_img__LAww_ {
+    object-fit: cover;
+  }
+
+  .cards_label__CkMuR {
+    color: black;
+    font-family: Helvetica;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 7%;
+    margin-left: 7%;
+  }
+
+  @media (min-width: 1701px) and (max-width: 1920px){
+    .cards_article__1gHAr{
+      width: 90%;
+      height: 430px;
+    }
+
+    .cards_label__CkMuR{
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 1301px) and (max-width: 1500px) {
+    .cards_article__1gHAr{
+      width: 300px;
+      height: 330px;
+    }
+  }
+
+  @media (min-width: 1101px) and (max-width: 1300px){
+    .cards_article__1gHAr{
+      width: 90%px;
+      height: 300px;
+    }
+  } 
+
+  @media (min-width: 801px) and (max-width: 1100px){
+    .cards_article__1gHAr{
+      width: 90%px;
+      height: 230px;
+    }
+  } 
+
+  @media (min-width: 401px) and (max-width: 800px){
+    .cards_article__1gHAr{
+      width: 80%;
+      height: 280px;
+      margin: auto;
+    }
+
+    .cards_label__CkMuR {
+      font-size: 18px;
+    }
+  }

@@ -1,0 +1,58 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/chooseAvatar/chooseAvatar.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************/
+.chooseAvatar_container__mMdfH {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+  text-align: center;
+  background-color: #EDEDED;
+  width: 95%;
+  height: 300px;
+  margin: 10% auto;
+  border-radius: 40px;
+} 
+
+.chooseAvatar_title__3oulE {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.chooseAvatar_h1__RZrnc{
+  font-family: Helvetica;
+  color: #3A3E88;
+}
+
+.chooseAvatar_grid__Irus_ {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.chooseAvatar_button__FMP1R{
+  background-color: #3A3E88;
+  border: none;
+  width: 13%;
+  height: 30px;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: medium;
+  color: white;
+}
+
+.chooseAvatar_avatar__ZQFtk {
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 3px solid transparent;
+}
+
+.chooseAvatar_avatar__ZQFtk:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #aaa;
+  border-color: #0070f3;
+}
+

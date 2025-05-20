@@ -1,0 +1,241 @@
+.container{
+  background-color: #EDEDED;
+  width: 95%;
+  height: 500px;
+  margin: 20px auto;
+  border-radius: 32px;
+}
+
+.banner{
+  width: 100%;
+}
+
+.profile{
+  margin-right: 20px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto 3% auto;
+    width: 95%;
+}
+
+.cardText{
+    margin-top: 2.8%;
+}
+
+.h2{
+  margin-bottom: 2%;  
+  margin-left: 3%;
+  font-weight: 700;
+  color: #3A3E88;
+}
+
+.infoContainter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 28%;
+}
+
+.info, .text, .buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+.text{
+  width: 100%;
+  align-items: center;
+}
+
+.textInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 100%;
+}
+
+.university{
+  margin-top: 20px;
+  margin-left: 80px;
+  font-size: 18px;
+  font-weight: 550;
+  height: 10%;
+  font-family: Helvetica;
+}
+
+.user{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.email{
+  color: #686868;
+  font-size: 18px;
+}
+
+.edit{
+  background-color: #3A3E88;
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  color: white;
+}
+
+.line{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.options{
+  display: flex;
+  flex-direction: column;
+  margin-top: 67px;
+}
+
+.h1{
+  font-size: 20px;
+  color: #3A3E88;
+  margin-left: 50px;
+}
+
+.textP{
+  color: #000555;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.buttons{
+  width: 100%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.button{
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #B6C8DC;
+  color: #3A3E88;
+  margin-top: 30px;
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-radius: 32px;
+  padding: 0 30px;
+}
+
+@media (min-width: 1701px) and (max-width: 1920px){
+  .container{
+    height: 550px;
+    border-radius: 24px;
+  }
+  
+  .edit{
+    font-size: 25px;
+    height: 45px;
+    width: 150px;
+  }
+
+  .h1{
+    font-size: 25px;
+    margin-left: 70px;
+  }
+  
+  .textP{
+    font-size: 18px;
+  }
+
+  .button{
+    font-size: 25px;
+    width: 450px;
+    height: 55px;
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1500px){
+  .button{
+    width: 340px;
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1300px){
+  .button{
+    width: 300px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1100px){
+  .container{
+    height: 720px;
+  }
+
+  .h1{
+    font-size: 18px;
+  }
+
+  .textP{
+    font-size: 16px;
+  }
+
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button{
+    font-size: 20px;
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+  }
+}
+
+
+@media (min-width: 400px) and (max-width:800px){
+  .container{
+    height: 780px;
+  }
+
+  .text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .h1{
+    margin: 0 0 10px 0;
+    font-size: 20px;
+  }
+
+  .textP{
+    font-size: 16px;
+    margin: 0 20px;
+    text-align: center;
+  }
+
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button{
+    font-size: 20px;
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .section{
+    flex-direction: column;
+    width: 100%;
+  }
+}

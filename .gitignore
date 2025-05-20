@@ -1,0 +1,14 @@
+# Ignorar a pasta node_modules
+pikachu/node_modules/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar build e pastas temporárias
+dist/
+build/
+.env
