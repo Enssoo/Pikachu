@@ -1,7 +1,6 @@
 # Pikachu
 
-(Projeto acadêmico de site interativo com design responsivo, voltado ao apoio de estudantes periféricos e racializados na preparação para o vestibular. Focado no fortalecimento e pertencimento, foi desenvolvido com Next.js, HTML, CSS e JavaScript.
-Em breve, o projeto contará com o consumo de uma API)
+(Projeto acadêmico de site interativo com design responsivo, voltado ao apoio de estudantes periféricos e racializados na preparação para o vestibular. Focado no fortalecimento e pertencimento, foi desenvolvido com o framework Next.js, HTML, CSS e JavaScript, integrando uma API para funcionalidades dinâmicas.)
 
 ## Homepage
 Página inicial organizada por disciplinas do vestibular, divididas em três categorias principais: Humanas, Exatas e Biológicas/Linguagens.
@@ -12,8 +11,20 @@ Informações sobre os conteúdos acadêmicos disponíveis (Biologia, Sociologia
 ![Image](https://github.com/user-attachments/assets/39ad14d5-4c14-4b71-838a-53efa528f7d3)
 
 ## Perfil
-Página de perfil do estudante com dados pessoais, métricas de desempenho, assuntos favoritos e preferências acadêmicas para acompanhamento do progresso no vestibular.
+Página com dados do estudante, desempenho, preferências acadêmicas e avatar escolhido. O avatar pode ser personalizado por meio da página de seleção integrada a uma API.
 ![Image](https://github.com/user-attachments/assets/afba1df9-a018-4ea0-bdd8-732e0dc46adb)
+
+## Seleção de Imagem
+Página dedicada à escolha de avatar, com imagens geradas dinamicamente pela API do Dicebear. O usuário pode selecionar, salvar ou resetar seu avatar.
+![Image](https://github.com/user-attachments/assets/f7709eee-a5c3-41e5-bc6f-7cd6056d429d)
+
+## Avatar Selecionado
+Visualização do avatar escolhido pelo usuário, exibido na mesma página após a seleção.
+![Image](https://github.com/user-attachments/assets/b91acfe1-e17f-4db0-b161-61a3908a74e2)
+
+## Responsividade
+O site é totalmente responsivo, adaptando-se a diferentes tamanhos de tela para garantir navegação eficiente em computadores, tablets e celulares.
+![Image](https://github.com/user-attachments/assets/73fdf3aa-81ee-4c25-a395-9f2882545899)
 
 ## Cadastro
 Página de cadastro para novos usuários com campos para nome, e-mail, curso e universidade desejada, além de botões de ação.
